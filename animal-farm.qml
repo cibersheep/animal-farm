@@ -12,7 +12,7 @@ import QtQuick 2.0
 import Ubuntu.Components 0.1
 
 MainView {
-    applicationName: "animal-farm"
+    applicationName: "com.ubuntu.developer.robert-ancell.animal-farm"
     automaticOrientation: true
     width: units.gu(100)
     height: units.gu(75)
