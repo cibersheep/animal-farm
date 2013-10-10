@@ -7,6 +7,7 @@
     "framework": "ubuntu-sdk-13.10",
     "hooks": {
         "ubuntu-tasks": {
+            "apparmor": "animal-farm.json",
             "desktop": "animal-farm.desktop"
         }
     }
