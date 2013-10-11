@@ -1,7 +1,7 @@
 {
     "title": "Animal Farm",
     "description": "A simple game for babies to touch animals and hear them make noises",
-    "version": "0.4",
+    "version": "0.5",
     "name": "com.ubuntu.developer.robert-ancell.animal-farm",
     "maintainer": "Robert Ancell <robert.ancell@canonical.com>",
     "framework": "ubuntu-sdk-13.10",
