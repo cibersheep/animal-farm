@@ -45,7 +45,7 @@ MainView {
                 radius: wrapper.button_radius;
                 color: "#fce94f";
                 imageSource: "cat.png";
-                soundSource: "cat.mp3";
+                soundSource: "cat.ogg";
             }
             AnimalButton {
                 width: wrapper.button_size;
@@ -53,7 +53,7 @@ MainView {
                 radius: wrapper.button_radius;
                 color: "#8ae234";
                 imageSource: "dog.png";
-                soundSource: "dog.mp3";
+                soundSource: "dog.ogg";
             }
             AnimalButton {
                 width: wrapper.button_size;
@@ -61,7 +61,7 @@ MainView {
                 radius: wrapper.button_radius;
                 color: "#729fcf";
                 imageSource: "sheep.png";
-                soundSource: "sheep.mp3";
+                soundSource: "sheep.ogg";
             }
             AnimalButton {
                 width: wrapper.button_size;
@@ -69,7 +69,7 @@ MainView {
                 radius: wrapper.button_radius;
                 color: "#e9b96e";
                 imageSource: "goat.png";
-                soundSource: "goat.mp3";
+                soundSource: "goat.ogg";
             }
             AnimalButton {
                 width: wrapper.button_size;
@@ -77,7 +77,7 @@ MainView {
                 radius: wrapper.button_radius;
                 color: "#fcaf3e";
                 imageSource: "elephant.png";
-                soundSource: "elephant.mp3";
+                soundSource: "elephant.ogg";
             }
             AnimalButton {
                 width: wrapper.button_size;
@@ -85,7 +85,7 @@ MainView {
                 radius: wrapper.button_radius;
                 color: "#ad7fa8";
                 imageSource: "cow.png";
-                soundSource: "cow.mp3";
+                soundSource: "cow.ogg";
             }
         }
     }
