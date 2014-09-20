@@ -1,14 +1,15 @@
 {
-    "title": "Animal Farm",
+    "architecture": "all",
     "description": "A simple game for babies to touch animals and hear them make noises",
-    "version": "0.6",
-    "name": "com.ubuntu.developer.robert-ancell.animal-farm",
-    "maintainer": "Robert Ancell <robert.ancell@canonical.com>",
-    "framework": "ubuntu-sdk-13.10",
+    "framework": "ubuntu-sdk-14.10-dev2",
     "hooks": {
-        "ubuntu-tasks": {
-            "apparmor": "animal-farm.json",
+        "animal-farm": {
+            "apparmor": "animal-farm.apparmor",
             "desktop": "animal-farm.desktop"
         }
-    }
+    },
+    "maintainer": "Robert Ancell <robert.ancell@canonical.com>",
+    "name": "com.ubuntu.developer.robert-ancell.animal-farm",
+    "title": "Animal Farm",
+    "version": "0.6"
 }

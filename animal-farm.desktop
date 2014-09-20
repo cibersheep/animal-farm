@@ -1,8 +1,8 @@
 [Desktop Entry]
-Version=1.0
-Type=Application
+Name=Animal Farm
+Exec=qmlscene $@ main.qml
 Icon=animal-farm.png
 Terminal=false
-Exec=qmlscene animal-farm.qml
-Name=Animal Farm
+Type=Application
 X-Ubuntu-Touch=true
+
