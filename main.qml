@@ -18,8 +18,8 @@ MainView {
     height: units.gu(75)
 
     id: app;
-
-    Item {
+    
+    Page {
         anchors.fill: parent
 
         id: wrapper
