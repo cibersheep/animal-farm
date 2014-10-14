@@ -14,8 +14,8 @@ import Ubuntu.Components 1.1
 MainView {
     applicationName: "com.ubuntu.developer.robert-ancell.animal-farm"
     automaticOrientation: true
-    width: units.gu(100)
-    height: units.gu(75)
+    width: units.gu (40)
+    height: units.gu (71)
 
     id: app;
     
