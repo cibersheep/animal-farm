@@ -1,7 +1,7 @@
 {
     "architecture": "all",
     "description": "A simple game for babies to touch animals and hear them make noises",
-    "framework": "ubuntu-sdk-14.10-dev2",
+    "framework": "ubuntu-sdk-14.10",
     "hooks": {
         "animal-farm": {
             "apparmor": "animal-farm.apparmor",
