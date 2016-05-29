@@ -1,22 +1,27 @@
-# More information: https://wiki.ubuntu.com/Touch/Testing
-#
-# Notes for autopilot tests:
-# -----------------------------------------------------------
-# In order to run autopilot tests:
-# sudo apt-add-repository ppa:autopilot/ppa
-# sudo apt-get update
-# sudo apt-get install python-autopilot autopilot-qt
-#############################################################
+all: animal-farm.desktop \
+     po/com.ubuntu.developer.robert-ancell.animal-farm.pot
 
-all:
+QML_SOURCES = main.qml AnimalButton.qml
 
-autopilot:
-	chmod +x tests/autopilot/run
-	tests/autopilot/run
+click:
+	click build --ignore=Makefile --ignore=*.pot --ignore=*.po --ignore=*.qmlproject --ignore=*.qmlproject.user --ignore=*.in --ignore=po .
 
-check:
-	qmltestrunner -input tests/unit
+#animal-farm.desktop: animal-farm.desktop.in po/*.po
+animal-farm.desktop: animal-farm.desktop.in
+	intltool-merge --desktop-style po $< $@
+
+po/com.ubuntu.developer.robert-ancell.animal-farm.pot: $(QML_SOURCES) animal-farm.desktop.in
+	touch po/com.ubuntu.developer.robert-ancell.animal-farm.pot
+	xgettext --language=JavaScript --from-code=UTF-8 --keyword=tr --keyword=tr:1,2 --add-comments=TRANSLATORS $(QML_SOURCES) -o po/com.ubuntu.developer.robert-ancell.animal-farm.pot
+	intltool-extract --type=gettext/keys animal-farm.desktop.in
+	xgettext --keyword=N_ animal-farm.desktop.in.h -j -o po/com.ubuntu.developer.robert-ancell.animal-farm.pot
+	rm -f animal-farm.desktop.in.h
+
+share/locale/%/LC_MESSAGES/com.ubuntu.developer.robert-ancell.animal-farm.mo: po/%.po
+	msgfmt -o $@ $<
+
+clean:
+	rm -f share/locale/*/*/*.mo animal-farm.desktop
 
 run:
 	/usr/bin/qmlscene $@ main.qml
-
