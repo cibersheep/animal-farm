@@ -1,13 +1,13 @@
 all: animal-farm.desktop \
-     po/com.ubuntu.developer.robert-ancell.animal-farm.pot
+     po/com.ubuntu.developer.robert-ancell.animal-farm.pot \
+     share/locale/it/LC_MESSAGES/com.ubuntu.developer.robert-ancell.animal-farm.mo
 
 QML_SOURCES = main.qml AnimalButton.qml
 
 click:
 	click build --ignore=Makefile --ignore=*.pot --ignore=*.po --ignore=*.qmlproject --ignore=*.qmlproject.user --ignore=*.in --ignore=po .
 
-#animal-farm.desktop: animal-farm.desktop.in po/*.po
-animal-farm.desktop: animal-farm.desktop.in
+animal-farm.desktop: animal-farm.desktop.in po/*.po
 	intltool-merge --desktop-style po $< $@
 
 po/com.ubuntu.developer.robert-ancell.animal-farm.pot: $(QML_SOURCES) animal-farm.desktop.in
