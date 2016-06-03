@@ -1,6 +1,7 @@
 all: animal-farm.desktop \
      po/com.ubuntu.developer.robert-ancell.animal-farm.pot \
      share/locale/el/LC_MESSAGES/com.ubuntu.developer.robert-ancell.animal-farm.mo \
+     share/locale/hu/LC_MESSAGES/com.ubuntu.developer.robert-ancell.animal-farm.mo \
      share/locale/it/LC_MESSAGES/com.ubuntu.developer.robert-ancell.animal-farm.mo     
 
 QML_SOURCES = main.qml AnimalButton.qml
