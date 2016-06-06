@@ -1,4 +1,4 @@
-# Portuguese translation for animal-farm
+# Dutch translation for animal-farm
 # Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
 # This file is distributed under the same license as the animal-farm package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: animal-farm\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-05-29 17:08+1200\n"
-"PO-Revision-Date: 2016-06-05 09:38+0000\n"
-"Last-Translator: Vitor Loureiro <Unknown>\n"
-"Language-Team: Portuguese <pt@li.org>\n"
+"PO-Revision-Date: 2016-06-05 10:44+0000\n"
+"Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
+"Language-Team: Dutch <nl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,16 +19,17 @@ msgstr ""
 
 #: animal-farm.desktop.in.h:1
 msgid "Animal Farm"
-msgstr "Animais de Quinta"
+msgstr "Dierenboerderij"
 
 #: animal-farm.desktop.in.h:2
 msgid "A simple game for babies to touch animals and hear them make noises"
 msgstr ""
-"Um jogo simples para bebés para tocar nos animais e ouvi-los a fazer sons"
+"Een simpel spel voor baby's, waarbij het de bedoeling is dat ze de "
+"dierenplaatjes aanraken en zo de desbetreffende dierengeluiden horen."
 
 #: animal-farm.desktop.in.h:3
 msgid ""
 "animals,sounds,moo,woof,baa,bleat,baby,touch,elephant,cow,sheep,goat,cat,dog"
 msgstr ""
-"animais, sons, moo, woof, baa, balir, bebê, tocar, elefante, vaca, ovelha, "
-"cabra, cachorro"
+"dieren,geluiden,moe,woef,baa,blaten,baby,aanraken,olifant,koe,schaap,geit,kat"
+",hond"
