@@ -1,0 +1,31 @@
+# Chinese (Simplified) translation for animal-farm
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the animal-farm package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: animal-farm\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-05-29 17:08+1200\n"
+"PO-Revision-Date: 2016-06-06 12:11+0000\n"
+"Last-Translator: Cheng Lu <chenglu1990@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-06-07 05:36+0000\n"
+"X-Generator: Launchpad (build 18097)\n"
+
+#: animal-farm.desktop.in.h:1
+msgid "Animal Farm"
+msgstr "动物农场"
+
+#: animal-farm.desktop.in.h:2
+msgid "A simple game for babies to touch animals and hear them make noises"
+msgstr "一个简单的游戏，宝宝可以点击动物听见它们发出的声音。"
+
+#: animal-farm.desktop.in.h:3
+msgid ""
+"animals,sounds,moo,woof,baa,bleat,baby,touch,elephant,cow,sheep,goat,cat,dog"
+msgstr "动物,声音,哞,汪,咩,咩咩,宝宝,触控,象,牛,羊,山羊,猫,狗"
