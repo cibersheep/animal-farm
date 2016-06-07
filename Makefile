@@ -4,7 +4,9 @@ all: animal-farm.desktop \
      share/locale/el/LC_MESSAGES/com.ubuntu.developer.robert-ancell.animal-farm.mo \
      share/locale/hu/LC_MESSAGES/com.ubuntu.developer.robert-ancell.animal-farm.mo \
      share/locale/it/LC_MESSAGES/com.ubuntu.developer.robert-ancell.animal-farm.mo \
-     share/locale/pt/LC_MESSAGES/com.ubuntu.developer.robert-ancell.animal-farm.mo
+     share/locale/nl/LC_MESSAGES/com.ubuntu.developer.robert-ancell.animal-farm.mo \
+     share/locale/pt/LC_MESSAGES/com.ubuntu.developer.robert-ancell.animal-farm.mo \
+     share/locale/zh_CN/LC_MESSAGES/com.ubuntu.developer.robert-ancell.animal-farm.mo     
 
 QML_SOURCES = main.qml AnimalButton.qml
 
