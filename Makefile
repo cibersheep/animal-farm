@@ -14,14 +14,11 @@ click:
 	click build --ignore=Makefile --ignore=*.pot --ignore=*.po --ignore=*.qmlproject --ignore=*.qmlproject.user --ignore=*.in --ignore=po .
 
 animal-farm.desktop: animal-farm.desktop.in po/*.po
-	intltool-merge --desktop-style po $< $@
+	msgfmt --desktop --template=animal-farm.desktop.in -d po/ -o $@
 
 po/com.ubuntu.developer.robert-ancell.animal-farm.pot: $(QML_SOURCES) animal-farm.desktop.in
-	touch po/com.ubuntu.developer.robert-ancell.animal-farm.pot
-	xgettext --language=JavaScript --from-code=UTF-8 --keyword=tr --keyword=tr:1,2 --add-comments=TRANSLATORS $(QML_SOURCES) -o po/com.ubuntu.developer.robert-ancell.animal-farm.pot
-	intltool-extract --type=gettext/keys animal-farm.desktop.in
-	xgettext --keyword=N_ animal-farm.desktop.in.h -j -o po/com.ubuntu.developer.robert-ancell.animal-farm.pot
-	rm -f animal-farm.desktop.in.h
+	xgettext --language=JavaScript --from-code=UTF-8 --keyword=tr --keyword=tr:1,2 --add-comments=TRANSLATORS --force-po $(QML_SOURCES) -o po/com.ubuntu.developer.robert-ancell.animal-farm.pot
+	xgettext --language=Desktop -k -kName -kComment -kKeywords --add-comments=TRANSLATORS animal-farm.desktop.in -j -o $@
 
 share/locale/%/LC_MESSAGES/com.ubuntu.developer.robert-ancell.animal-farm.mo: po/%.po
 	msgfmt -o $@ $<

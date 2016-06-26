@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-29 17:08+1200\n"
+"POT-Creation-Date: 2016-06-27 09:41+1200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,15 +17,18 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: animal-farm.desktop.in.h:1
+#. TRANSLATORS: Title of application
+#: animal-farm.desktop.in:4
 msgid "Animal Farm"
 msgstr ""
 
-#: animal-farm.desktop.in.h:2
+#. TRANSLATORS: Single line description of application
+#: animal-farm.desktop.in:6
 msgid "A simple game for babies to touch animals and hear them make noises"
 msgstr ""
 
-#: animal-farm.desktop.in.h:3
+#. TRANSLATORS: Keywords used for finding this application
+#: animal-farm.desktop.in:8
 msgid ""
 "animals,sounds,moo,woof,baa,bleat,baby,touch,elephant,cow,sheep,goat,cat,dog"
 msgstr ""
