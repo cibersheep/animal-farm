@@ -9,7 +9,7 @@
  */
 
 import QtQuick 2.0
-import QtMultimedia 5.0
+import QtMultimedia 5.4
 import Ubuntu.Components 1.1
 
 UbuntuShape {
@@ -29,7 +29,7 @@ UbuntuShape {
         fillMode: Image.PreserveAspectFit
     }
 
-    Audio {
+    SoundEffect {
         id: sound
     }
 
