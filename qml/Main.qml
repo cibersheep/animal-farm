@@ -44,48 +44,53 @@ MainView {
                 height: wrapper.button_size
                 radius: wrapper.button_radius
                 color: "#fce94f"
-                imageSource: "cat.png"
-                soundSource: "cat.wav"
+                imageSource: "../assets/cat.png"
+                soundSource: "../assets/cat.wav"
             }
+
             AnimalButton {
                 width: wrapper.button_size
                 height: wrapper.button_size
                 radius: wrapper.button_radius
                 color: "#8ae234"
-                imageSource: "dog.png"
-                soundSource: "dog.wav"
+                imageSource: "../assets/dog.png"
+                soundSource: "../assets/dog.wav"
             }
+
             AnimalButton {
                 width: wrapper.button_size
                 height: wrapper.button_size
                 radius: wrapper.button_radius
                 color: "#729fcf"
-                imageSource: "sheep.png"
-                soundSource: "sheep.wav"
+                imageSource: "../assets/sheep.png"
+                soundSource: "../assets/sheep.wav"
             }
+
             AnimalButton {
                 width: wrapper.button_size
                 height: wrapper.button_size
                 radius: wrapper.button_radius
                 color: "#e9b96e"
-                imageSource: "goat.png"
-                soundSource: "goat.wav"
+                imageSource: "../assets/goat.png"
+                soundSource: "../assets/goat.wav"
             }
+
             AnimalButton {
                 width: wrapper.button_size
                 height: wrapper.button_size
                 radius: wrapper.button_radius
                 color: "#fcaf3e"
-                imageSource: "elephant.png"
-                soundSource: "elephant.wav"
+                imageSource: "../assets/elephant.png"
+                soundSource: "../assets/elephant.wav"
             }
+
             AnimalButton {
                 width: wrapper.button_size
                 height: wrapper.button_size
                 radius: wrapper.button_radius
                 color: "#ad7fa8"
-                imageSource: "cow.png"
-                soundSource: "cow.wav"
+                imageSource: "../assets/cow.png"
+                soundSource: "../assets/cow.wav"
             }
         }
     }

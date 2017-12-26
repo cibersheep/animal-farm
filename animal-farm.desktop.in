@@ -5,8 +5,8 @@ Name=Animal Farm
 Comment=A simple game for babies to touch animals and hear them make noises
 # TRANSLATORS: Keywords used for finding this application
 Keywords=animals,sounds,moo,woof,baa,bleat,baby,touch,elephant,cow,sheep,goat,cat,dog
-Exec=qmlscene $@ main.qml
-Icon=animal-farm.png
+Exec=qmlscene $@ qml/Main.qml
+Icon=assets/animal-farm.png
 Terminal=false
 Type=Application
 X-Ubuntu-Touch=true

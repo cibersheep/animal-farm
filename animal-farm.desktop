@@ -1,0 +1,39 @@
+[Desktop Entry]
+# TRANSLATORS: Title of application
+Name[de]=Bauernhof
+Name[el]=Φάρμα ζώων
+Name[fr]=La ferme des animaux
+Name[hu]=Kisállatfarm
+Name[it]=Fattoria degli animali
+Name[nl]=Dierenboerderij
+Name[pt]=Animais de Quinta
+Name[sr]=Животињска фарма
+Name[zh_CN]=动物农场
+Name=Animal Farm
+# TRANSLATORS: Single line description of application
+Comment[de]=Ein einfaches Spiel für Kleinkinder um Tiere zu berühren und deren Laute zu hören
+Comment[el]=Ένα απλό παιχνίδι για μωρά να αγγίζουν τα ζώα και να ακούν τις φωνές τους
+Comment[fr]=Un jeu simple pour permettre aux bébés de toucher les animaux et d'entendre leurs cris
+Comment[hu]=Egyszerű játék kisgyerekeknek. Érintésere az állatokra jellemző hangot hallhatunk
+Comment[it]=Un semplice gioco per bambini per toccare gli animali e ascoltare i loro versi
+Comment[nl]=Een simpel spel voor baby's, waarbij het de bedoeling is dat ze de dierenplaatjes aanraken en zo de desbetreffende dierengeluiden horen.
+Comment[pt]=Um jogo simples para bebés para tocar nos animais e ouvi-los a fazer sons
+Comment[sr]=Једноставна игра за бебе да додирну животиње и да чују како се оглашавају
+Comment[zh_CN]=一个简单的游戏，宝宝可以点击动物听见它们发出的声音。
+Comment=A simple game for babies to touch animals and hear them make noises
+# TRANSLATORS: Keywords used for finding this application
+Keywords[de]=Tiere,Laute,muh,wuff,bäh,blök,Kleinkinder,berühren,Elefant,Kuh,Schaf,Ziege,Katze,Hund
+Keywords[el]=ζώα;ήχοι;μου;γουφ;μπα;μωρό,άγγιγμα;ελέφαντας;αγελάδα;πρόβατο;κατσίδα;γάτα;σκύλος
+Keywords[fr]=animaux,sons,meuh,ouaf,bêê,miaou,bébé,tactile,éléphant,vache,mouton,chèvre,chat,chien
+Keywords[hu]=állatok,hangok,mu,vau,babák,kisgyerekek,érintés,elefánt,tehén,birka,kecske,macska,kutya
+Keywords[it]=Animali,suoni,moo,woof,bee,baby,tocca,elefante,gallina,pecora,capra,gatto,cane
+Keywords[nl]=dieren,geluiden,moe,woef,baa,blaten,baby,aanraken,olifant,koe,schaap,geit,kat,hond
+Keywords[pt]=animais, sons, moo, woof, baa, balir, bebê, tocar, elefante, vaca, ovelha, cabra, cachorro
+Keywords[sr]=животиње;звуци;мууу;беее;беба;додир;слон;крава;овца;коза;пас;мачка
+Keywords[zh_CN]=动物,声音,哞,汪,咩,咩咩,宝宝,触控,象,牛,羊,山羊,猫,狗
+Keywords=animals,sounds,moo,woof,baa,bleat,baby,touch,elephant,cow,sheep,goat,cat,dog
+Exec=qmlscene $@ main.qml
+Icon=animal-farm.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true

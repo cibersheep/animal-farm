@@ -42,6 +42,7 @@ UbuntuShape {
             to: 10
             easing.type: Easing.OutQuad
         }
+
         RotationAnimation {
             target: box
             properties: "rotation"
@@ -49,6 +50,7 @@ UbuntuShape {
             to: -10
             easing.type: Easing.OutQuad
         }
+
         RotationAnimation {
             target: box
             properties: "rotation"
@@ -60,6 +62,9 @@ UbuntuShape {
 
     MouseArea {
         anchors.fill: parent
-        onPressed: { animation.start(); sound.play(); }
+        onPressed: {
+            animation.start();
+            sound.play();
+        }
     }
 }
